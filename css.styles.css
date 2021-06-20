@@ -1,5 +1,69 @@
-h1 {
-  font-size:24px;
-  padding-left:16px;
-  border-left: 16px solid pink;
+
+body {
+  margin:0px;
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  color: #333;
+}
+
+header {
+  background: #f59a00;
+  color: #fff;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 12px;
+}
+
+header h1 ,
+header p {
+  margin: 0px;
+}
+
+header img {
+  width: 140px;
+  height: 180px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+  vertical-align: bottom;;
+}
+
+.btn {
+  text-decoration: none;
+  background:  #fff;
+  color: #f59a00;
+  display: block;
+  width: 140px;
+  line-height: 24px;
+  margin: 20px auto 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity:0.9;
+}
+
+.container {
+  text-align: center;
+  padding: 32px 0;
+  font-weight: normal;
+}
+
+.container .blog{
+  background: cornflowerblue;
+}
+
+.container .baseball {
+  background: pink;
+}
+
+.container .moko {
+background: chocolate;
+}
+
+.container img {
+  width: 140px;
+  height: 180px;
+  border-radius: 50%;
 }
